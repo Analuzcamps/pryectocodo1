@@ -1,0 +1,84 @@
+/* css general */
+
+body  {background: whitesmoke}
+/* Flex-box y estilo nav */ 
+
+.stickyNav {position: sticky;
+    top: 0; 
+   z-index: 9999;}
+
+
+.li1 {width: 60px; 
+
+background-color: whitesmoke;
+
+transition: 2s;
+
+}
+
+.li1:hover {width: 120px;
+    height: auto; 
+    background-color: gray;
+   }
+.logo1 { width: 160px;
+    height: 160px;
+    border-radius: 50%;}
+
+/*Flex-box header*/
+
+.contenedorHeader {display: flex; }
+.contenedorHeader {justify-content: space-between;}
+.navFlex {display: flex; }
+.navFlex {flex-direction: row; }
+li {padding: 10px; }
+li {list-style: none; }
+
+/* css section home */
+
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(../assets/img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
+    .wrapText{
+        color: whitesmoke;
+        text-align: center;
+        width:50%;
+        }
+    
+
+/*flex-box footer*/
+
+.footerFlex {display: flex;
+     justify-content: space-between;
+
+     }
+
+.imgFooterF {width: 19px; }
+.imgFooterM {width: 25px; }
+.imgFooterI {width: 23px;}
+
+.logoFlex {display: flex;
+   flex-direction: row; }
+
+.li2 {width: 60px; 
+
+background-color: #20290b; 
+
+transition: 2s;
+
+}
+
+.li2:hover {width: 120px;
+    height: auto; 
+    background-color: #20290b; 
+   }
+
+
+
